@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 *{
     margin: 0;
@@ -61,6 +60,9 @@ h3{
 .container__parte__principal{
    
     padding-top: 160px;
+    
+   
+    
 
 }
 
@@ -148,7 +150,7 @@ footer {
     font-size: 20px;
     position: fixed;
     bottom: 50px;
-    right: 20px;
+    right: 32px;
     cursor: pointer;
     border: 4px solid transparent;
     transition: all 300ms ease-in;
@@ -167,6 +169,7 @@ footer {
 
 /*Botón de ir arriba*/
 
+
 @media screen and (max-width: 800px) {
     
 
@@ -177,7 +180,7 @@ footer {
     }
     .container__grid{
         display: grid;
-        grid-template-columns: 55% ;
+        grid-template-columns: 56% ;
         gap: 10px;
         margin: 0 auto;
         text-align: center;
@@ -188,43 +191,21 @@ footer {
      
     }
 
-    #button-up{
-        width: 50px;
-    height: 50px;
-    background-color: #46a2fd;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    border-radius: 50%;
-    font-size: 20px;
-    position: fixed;
-    bottom: 100px;
-    right: 30px;
-    cursor: pointer;
-    border: 4px solid transparent;
-    transition: all 300ms ease-in;
-    transform: scale(0);
-    }
     
-    #button-up:hover{
-        transform: scale(1.1);
-        border-color: rgba(0, 0, 0, 0.1);
-        transition: all 300ms ease-out;
-    }
 
     .container__grid__base{
         padding-left: 0px;
     }
     
     .texto {
-        text-align: justify;
-        font-size: 15px;
-        max-width: 79%;
-        position: relative;
-        left: 30px;
-        color: #4a4a4a;
-        top: 25px;
+        text-align: left;
+    line-height: 1.2rem;
+    position: relative;
+    padding-top: 27px;
+    width: 84%;
+    max-width: 850px;
+    margin: 0 auto;
+    color: #4a4a4a;
     }
     
     
@@ -239,7 +220,7 @@ footer {
     
         background-color: white;
         box-shadow: 0 1px 15px rgba(83, 70, 70, 0.1);
-        height: 34vh;
+        height: 30vh;
         border-radius: 8px;
         cursor: pointer;
         width: 150%;
@@ -258,16 +239,17 @@ footer {
 
     footer {
         text-align: center;
-        padding: 60px;
-        background-color: #fff;
+        padding: 70px;
+        background-color: rgb(245, 245, 245);
         color: #4a4a4a;
         bottom: 0;
+        width: 100%;
         
     }
     
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 780px) {
     
 
     .container__grid{
@@ -288,29 +270,9 @@ footer {
      
     }
 
-    #button-up{
-        width: 50px;
-    height: 50px;
-    background-color: #46a2fd;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    border-radius: 50%;
-    font-size: 20px;
-    position: fixed;
-    bottom: 100px;
-    right: 30px;
-    cursor: pointer;
-    border: 4px solid transparent;
-    transition: all 300ms ease-in;
-    transform: scale(0);
-    }
     
-    #button-up:hover{
-        transform: scale(1.1);
-        border-color: rgba(0, 0, 0, 0.1);
-        transition: all 300ms ease-out;
+    #button-up{
+        display: none;
     }
 
 
@@ -319,13 +281,14 @@ footer {
     }
     
     .texto {
-        text-align: left;
-        font-size: 15px;
-        max-width: 79%;
-        position: relative;
-        left: 30px;
-        color: #4a4a4a;
-        top: 25px;
+        text-align: center;
+    line-height: 1.2rem;
+    position: relative;
+    padding-top: 27px;
+    width: 84%;
+    max-width: 850px;
+    margin: 0 auto;
+    color: #4a4a4a;
     }
     
     
@@ -340,7 +303,7 @@ footer {
     
         background-color: white;
         box-shadow: 0 1px 15px rgba(83, 70, 70, 0.1);
-        height: 34vh;
+        height: 55vh;
         border-radius: 8px;
         cursor: pointer;
         width: 150%;
@@ -359,11 +322,12 @@ footer {
 
     footer {
         text-align: center;
-        padding: 60px;
-        background-color: #fff;
+        padding: 70px;
+        background-color: rgb(245, 245, 245);
         color: #4a4a4a;
         bottom: 0;
-        
+        width: 100%;
+        font-size: 15px;
     }
     
 }
@@ -377,7 +341,7 @@ footer {
     }
     .container__grid{
         display: grid;
-        grid-template-columns: 55% ;
+        grid-template-columns: 56% ;
         gap: 10px;
         margin: 0 auto;
         text-align: center;
@@ -388,31 +352,7 @@ footer {
      
     }
 
-    #button-up{
-        width: 50px;
-    height: 50px;
-    background-color: #46a2fd;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    border-radius: 50%;
-    font-size: 20px;
-    position: fixed;
-    bottom: 100px;
-    right: 30px;
-    cursor: pointer;
-    border: 4px solid transparent;
-    transition: all 300ms ease-in;
-    transform: scale(0);
-    }
     
-    #button-up:hover{
-        transform: scale(1.1);
-        border-color: rgba(0, 0, 0, 0.1);
-        transition: all 300ms ease-out;
-    }
-
 
     h2 {
         color: #4a4a4a;
@@ -424,13 +364,14 @@ footer {
     
     
     .texto {
-        text-align: left;
-        font-size: 15px;
-        max-width: 79%;
-        position: relative;
-        left: 30px;
-        color: #4a4a4a;
-        top: 25px;
+        text-align: center;
+    line-height: 1.2rem;
+    position: relative;
+    padding-top: 27px;
+    width: 84%;
+    max-width: 850px;
+    margin: 0 auto;
+    color: #4a4a4a;
     }
     
     
@@ -445,7 +386,7 @@ footer {
     
         background-color: white;
         box-shadow: 0 1px 15px rgba(83, 70, 70, 0.1);
-        height: 48vh;
+        height: 49vh;
         border-radius: 8px;
         cursor: pointer;
         width: 150%;
@@ -473,3 +414,4 @@ footer {
 
 
 }
+
