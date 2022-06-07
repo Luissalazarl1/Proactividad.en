@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 *{
     margin: 0;
@@ -116,7 +117,7 @@ h2 {
 footer {
     text-align: center;
     padding: 70px;
-    background-color: rgb(245, 245, 245);
+    background-color: #f3f0ec;
     color: #4a4a4a;
     bottom: 0;
     width: 100%;
@@ -240,7 +241,7 @@ footer {
     footer {
         text-align: center;
         padding: 70px;
-        background-color: rgb(245, 245, 245);
+        background-color: #f3f0ec;
         color: #4a4a4a;
         bottom: 0;
         width: 100%;
@@ -323,7 +324,7 @@ footer {
     footer {
         text-align: center;
         padding: 70px;
-        background-color: rgb(245, 245, 245);
+        background-color: #f3f0ec;
         color: #4a4a4a;
         bottom: 0;
         width: 100%;
@@ -406,12 +407,12 @@ footer {
     footer {
         text-align: center;
         padding: 60px;
-        background-color: #fff;
+        background-color: #f3f0ec;
         color: #4a4a4a;
         bottom: 0;
+        width: 100%;
         
     }
 
 
 }
-
