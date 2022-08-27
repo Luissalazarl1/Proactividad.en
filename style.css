@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 *{
     margin: 0;
@@ -12,31 +13,54 @@ body{
     background-color: #fdfdfd;
 }
 
+
 .header{
     background-color: #fff;
-    padding: 35px;
-    box-shadow: 0 1px 15px rgba(83, 70, 70, 0.1);
+    padding: 30px;
+    box-shadow: 0 1px 15px rgba(83, 70, 70, 0.2);
     position: fixed;
     z-index: 1000;
     width: 100%;
 }
 
-.nav {
-    text-align: center;
+.contenedor{
+    align-content: left;
+    align-items: left;
+    text-align: left;
+}
+.nav{
+   
+    align-items: center;
+    align-content: center;
 }
 
 
+
+.icono-logo{
+    width: 4.7%;
+}
+
+.logotipo{
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+    letter-spacing: 0.4mm;
+    text-align: center;
+    padding-left: 4px;
+    
+}
 
 
 ul li {
     list-style: none;
-    display: inline-block;
+    text-align: left;
+    display: block;
+   
+    
 }
 
 ul li a {
-    display: block;
-    font-size: 25px;
-    font-weight: 700;
+    display: inline-block;
+    font-weight: 750;
     text-decoration: none;
     color: #4a4a4a;   
 }
@@ -47,7 +71,7 @@ ul li a {
 }
 
 h3{
-    text-align: center;
+    text-align: left;
     
 }
 
@@ -86,9 +110,12 @@ h3{
     position: relative;
     top: 18px;
     max-width: 100%;
+    left: -111px;
+    margin: 0 auto;
     width: 23%;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    
 }
 
 .imagen:hover {
@@ -99,11 +126,14 @@ h3{
 h2 {
     color: #4a4a4a;
     position: relative;
+    margin: 0 auto;
+    text-align: left;
+    left: 29px;
     top: 22px;
 }
 
 .texto {
-    text-align: center;
+    text-align: left;
     line-height: 1.4rem;
     position: relative;
     padding-top: 27px;
@@ -138,6 +168,7 @@ footer {
 
 
 /*Botón de ir arriba*/
+
 
 #button-up{
     width: 50px;
@@ -192,36 +223,54 @@ footer {
      
     }
 
-    
+    h2 {
+        color: #4a4a4a;
+        position: relative;
+        margin: 0 auto;
+        text-align: center;
+        left: 0;
+        top: 22px;
+    }
+    .contenedor{
+        align-content: center;
+        align-items: center;
+        text-align: center;
+    }
 
     .container__grid__base{
         padding-left: 0px;
     }
     
     .texto {
-        text-align: left;
-    line-height: 1.2rem;
-    position: relative;
-    padding-top: 27px;
-    width: 84%;
-    max-width: 850px;
-    margin: 0 auto;
-    color: #4a4a4a;
+        text-align: center;
+        line-height: 1.4rem;
+        position: relative;
+        padding-top: 27px;
+        width: 84%;
+        max-width: 850px;
+        margin: 0 auto;
+        color: #4a4a4a;
+        
     }
     
     
     .imagen{
+        position: relative;
+        top: 18px;
         max-width: 100%;
+        left: 0px;
+        margin: 0 auto;
         width: 23%;
         cursor: pointer;
         transition: all 0.3s ease-in-out;
+        
     }
 
     .card{
     
         background-color: white;
         box-shadow: 0 1px 15px rgba(83, 70, 70, 0.1);
-        height: 30vh;
+        height: 55vh;
         border-radius: 8px;
         cursor: pointer;
         width: 150%;
@@ -230,11 +279,14 @@ footer {
 
     
     ul li a {
-        display: block;
-        font-size: 24px;
-        font-weight: 700;
+        display: inline-block;
+        font-weight: 750;
         text-decoration: none;
-        color: #4a4a4a;
+        color: #4a4a4a;   
+    }
+    
+    h3{
+        text-align: center;
         
     }
 
@@ -270,13 +322,17 @@ footer {
         
      
     }
-
+    .contenedor{
+        align-content: center;
+        align-items: center;
+        text-align: center;
+    }
     
     #button-up{
         display: none;
     }
 
-
+    
     .container__grid__base{
         padding-left: 0px;
     }
@@ -294,10 +350,15 @@ footer {
     
     
     .imagen{
+        position: relative;
+        top: 18px;
         max-width: 100%;
+        left: 0;
+        margin: 0 auto;
         width: 23%;
         cursor: pointer;
         transition: all 0.3s ease-in-out;
+        
     }
 
     .card{
@@ -310,16 +371,27 @@ footer {
         width: 150%;
         
     }
-
+    h2 {
+        color: #4a4a4a;
+        position: relative;
+        margin: 0 auto;
+        text-align: center;
+        left: 0;
+        top: 22px;
+    }
     
     ul li a {
-        display: block;
-        font-size: 24px;
-        font-weight: 700;
+        display: inline-block;
+        font-weight: 750;
         text-decoration: none;
-        color: #4a4a4a;
+        color: #4a4a4a;   
+    }
+
+    h3{
+        text-align: center;
         
     }
+    
 
     footer {
         text-align: center;
@@ -329,6 +401,10 @@ footer {
         bottom: 0;
         width: 100%;
         font-size: 15px;
+    }
+
+    .icono-logo{
+        width: 8.2%;
     }
     
 }
@@ -353,13 +429,24 @@ footer {
      
     }
 
-    
+    .contenedor{
+        align-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    h3{
+        text-align: center;
+        
+    }
 
     h2 {
         color: #4a4a4a;
         position: relative;
-        top: 20px;
+        margin: 0 auto;
         text-align: center;
+        left: 0;
+        top: 22px;
     }
 
     
@@ -377,10 +464,15 @@ footer {
     
     
     .imagen{
+        position: relative;
+        top: 18px;
         max-width: 100%;
+        left: 0px;
+        margin: 0 auto;
         width: 23%;
         cursor: pointer;
         transition: all 0.3s ease-in-out;
+        
     }
 
     .card{
@@ -396,13 +488,13 @@ footer {
 
     
     ul li a {
-        display: block;
-        font-size: 20px;
-        font-weight: 700;
+        display: inline-block;
+        font-weight: 750;
         text-decoration: none;
-        color: #4a4a4a;
-        
+        color: #4a4a4a;   
     }
+    
+    
 
     footer {
         text-align: center;
