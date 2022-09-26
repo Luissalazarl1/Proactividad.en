@@ -17,7 +17,7 @@ body{
 
 .header{
     background-color: #fff;
-    padding: 25px;
+    padding: 29px;
     box-shadow: 0 1px 15px rgba(83, 70, 70, 0.2);
     position: fixed;
     z-index: 1000;
@@ -38,15 +38,16 @@ body{
 
 
 .icono-logo{
-    width: 4.7%;
+    width: 2.8%;
 }
 
 .logotipo{
     font-family: 'Roboto', sans-serif;
     font-size: xx-large;
-    letter-spacing: 0.4mm;
+    letter-spacing: -0.1mm;
     text-align: center;
     padding-left: 4px;
+    font-size: 25px;
     
 }
 
@@ -72,7 +73,7 @@ ul li a {
 }
 
 h3{
-    text-align: left;
+    text-align: center;
     
 }
 
@@ -85,13 +86,14 @@ h3{
 
 .container-header{
     width: 85%;
-    max-width: 1020px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 .container__parte__principal{
    
-    padding-top: 162px;
+    padding-top: 150px;
+    
     
    
     
@@ -101,7 +103,7 @@ h3{
 .container__grid{
     display: grid;
     grid-template-columns: 42% 42% 42% ;
-    gap: 4px;
+    gap: 3.8px;
     place-items: center;
     text-align: center;
     justify-content: center;
